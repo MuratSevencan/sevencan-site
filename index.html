@@ -1,43 +1,118 @@
 <!DOCTYPE html>
 <html lang="tr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dr. Murat Sevencan</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <img src="logo.png" alt="Logo" class="logo" />
-    <h1>Dr. Murat Sevencan</h1>
-    <nav>
-      <a href="#about">Hakkımda</a>
-      <a href="#projects">Projeler</a>
-      <a href="#contact">İletişim</a>
-    </nav>
-  </header>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=PT+Serif&display=swap');
 
-  <main>
-    <section id="about">
-      <h2>Hakkımda</h2>
-      <p>Stratejik öngörü, ulusal değerler ve kimlik temelli dış politika alanlarında çalışan bir sosyal bilimciyim. Kimlik, kültür ve değerlerin stratejik karar alma süreçlerine etkisini sosyal inşacılık kuramı çerçevesinde araştırıyorum.</p>
-    </section>
+body {
+  font-family: 'PT Serif', serif;
+  background-color: #e7e7f7;
+  color: #1b1c36;
+  margin: 0;
+  padding: 0 20px;
+  font-size: 12pt; /* Önceden 10pt idi */
+}
 
-    <section id="projects">
-      <h2>Projeler</h2>
-      <p><strong>Temel Araştırma:</strong> Ulusal stratejilerin belirlenmesinde kültürel değerlerin rolü. John Turner'ın öz-kategorizasyon teorisi ve Meta Kontrast Oranı (MCR) ile nicel analiz modeli geliştirilmiştir.</p>
-      <img src="stereotype-visual.png" alt="Stereotip Değerler Görseli" style="max-width:100%; height:auto;" />
-      <p>📄 <a href="https://www.researchgate.net/publication/341672046_A_Popular_Approach_to_European_Integration_and_European_Values" target="_blank">Makaleye Git</a></p>
-    </section>
+header {
+  background-color: #e7e7f7;
+  padding: 10px 0;
+}
 
-    <section id="contact">
-      <h2>İletişim</h2>
-      <ul>
-        <li>E-posta: muratsevencan[at]example.com</li>
-        <li><a href="https://www.linkedin.com/in/muratsevencan/" target="_blank">LinkedIn</a></li>
-      </ul>
-    </section>
-  </main>
+header table {
+  width: 100%;
+}
+
+header td {
+  text-align: center;
+}
+
+header h1, header h2, header h3, header h4 {
+  font-family: 'Gilda Display', serif;
+  color: #1b1c36;
+  margin: 0;
+}
+
+header h1 {
+  font-size: 18pt; /* Önceden 16pt idi */
+  text-align: left;
+}
+
+header h2 {
+  font-size: 16pt; /* Önceden 14pt idi */
+}
+
+header h3 {
+  font-size: 14pt; /* Önceden 12pt idi */
+}
+
+header h4 {
+  font-size: 13pt; /* Önceden 11pt idi */
+}
+
+header a {
+  text-decoration: none;
+  color: #1b1c36;
+  margin: 0 10px;
+}
+
+main {
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: 'Gilda Display', serif;
+  font-size: 18pt;
+}
+
+h2 {
+  font-family: 'Gilda Display', serif;
+  font-size: 16pt;
+}
+
+h3 {
+  font-family: 'Gilda Display', serif;
+  font-size: 14pt;
+}
+
+h4 {
+  font-family: 'Gilda Display', serif;
+  font-size: 13pt;
+}
+</style>
+
+<header>
+  <table border="0">
+    <tr>
+      <td style="text-align: left;"><h1><b>Dr. Murat Sevencan</b></h1></td>
+      <td><h3><a href="#">Hakkımda</a></h3></td>
+      <td><h3><a href="#">Çalışmalarım</a></h3></td>
+      <td><h3><a href="#">Yorumlarım</a></h3></td>
+      <td><h3><a href="#">İletişim</a></h3></td>
+    </tr>
+  </table>
+</header>
+
+<main>
+  <h2>Hakkımda</h2>
+  <p>
+  Uluslararası İlişkiler alanında çalışan, kuram ile uygulama arasında köprü kurmayı hedefleyen bir akademisyen ve öğretim üyesiyim. Son yirmi yılı aşkın süredir siyaset bilimi, uluslararası ilişkiler ve nicel araştırma yöntemleri dersleri veriyor; aynı zamanda stratejik davranışın toplumsal temellerini irdeleyen araştırmalar yürütüyorum.
+  </p>
+  <p>
+  Çalışmalarım, kültürel faktörlerin ve ulusal değerlerin stratejik karar alma süreçleri üzerindeki etkilerini nicel olarak analiz etmeye odaklanmaktadır. Bu bağlamda, Uluslararası İlişkiler kuramına—özellikle Alexander Wendt’in öncülüğünü yaptığı sosyal inşacı yaklaşım çerçevesinde—yeni bir perspektif sunmayı amaçlıyorum. Güç ve çıkarları verili değil, kimlik, anlam ve toplumsal etkileşimle inşa edilen yapılar olarak ele alıyorum.
+  </p>
+  <p>
+  Gelişmiş nicel analiz yöntemlerinden faydalanarak, inanç sistemlerinin, elit algılarının ve kültürel hafızanın dış politika davranışlarını nasıl şekillendirdiğini inceliyorum. Böylece empirik titizlikle, inşacı kuramsal duyarlılığı birleştiren bir araştırma yaklaşımı geliştiriyorum.
+  </p>
+  <p>
+  Hâlihazırda yürüttüğüm projeler arasında, Türkiye’de Çin’in Kuşak ve Yol Girişimi’ne dair elit algılarının haritalandırılması, Avrupa’nın stratejik öngörü kapasitesinin geleceği ve kimliğe dayalı iş birliği modellerinin incelenmesi yer almaktadır.
+  </p>
+  <p>
+  Eğitimdeki önceliğim, öğrencilerin küresel dinamikleri kavramsal berraklık ve yöntemsel disiplin ile anlamalarına olanak tanıyan canlı ve eleştirel bir öğrenme ortamı inşa etmektir. Öğretimi, kuramsal içgörü ile pratik anlam arasında ortak bilgi üretimini sağlayan etkileşimli bir süreç olarak görüyorum. Ayrıca öğrencilerin, gerçek hayatta olan biteni teoriyle birleştirerek yorum getirebilme yetkinliğini elde etmelerini hedefliyorum.
+  </p>
+  <p>
+  Uluslararası İlişkiler disiplinini daha toplumsal ve daha anlamlı bir zemine oturtacak iş birliklerine, disiplinler arası diyaloğa ve kamusal katkılara her zaman açığım.
+  </p>
+</main>
+
 
   <footer>
     <p>&copy; 2025 Dr. Murat Sevencan</p>
